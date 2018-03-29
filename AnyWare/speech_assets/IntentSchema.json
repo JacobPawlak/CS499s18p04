@@ -1,23 +1,47 @@
 {
-  "intents": [
-    {
-      "intent" : "ReadQuestions",
-      "slots": [
-        {
-          "stuff": "stuff",
-          "type": "stufftype"
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "anyware",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "getDatabaseName",
+                    "slots": [],
+                    "samples": [
+                        "tell me database",
+                        "what is the database",
+                        "what database am i using",
+                        "whose database is this",
+                        "What is the name of the database",
+                        "Which database am I using",
+                        "Which database is this",
+                        "Tell me this database name",
+                        "Tell me the name of the databse",
+                        "What database is this",
+                        "What is the name of this database",
+                        "What is the name of the database I am using"
+                    ]
+                },
+                {
+                    "name": "allExpiredItems",
+                    "slots": [],
+                    "samples": [
+                        "What are all the exprired items"
+                    ]
+                }
+            ],
+            "types": []
         }
-      ]
-
-    },
-    {
-      "intent": "AMAZON.HelpIntent"
-    },
-    {
-      "intent": "AMAZON.StopIntent"
-    },
-    {
-      "intent": "AMAZON.CancelIntent"
     }
-  ]
 }
