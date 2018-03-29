@@ -1,0 +1,4 @@
+peewee
+flask
+flask_ask
+pymysql
