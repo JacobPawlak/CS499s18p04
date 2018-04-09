@@ -18,7 +18,7 @@ https://cs.uky.edu/~ammu237/CS499s18p04Website/testing.html
 Within this repository are various project components that will eventually be integrated to create
 the final project. This README will provide a brief introduction to these different parts.
 
-## Requirements
+### Requirements
 Use `(sudo) pip install requirements.txt` to obtain the required python libraries to run the
 chat bot. How to run is detailed in the following section.
 
@@ -52,7 +52,7 @@ For the code used in this project, simply navigate to `wit/pywit`. There,
 you will find the code used to interface with the API in `wit/wit.py`, as well
 as some other pre-made example chatbots in the `examples` directory. 
 
-### Dataset
+## Dataset
 An Excel spreadsheet has been provided by our customer as a sample
 warehouse database; see `data/sample_database.xlsx`. Every
 warehouse will have their own database which is automatically
@@ -61,11 +61,11 @@ most warehouses should follow generally the same format. The
 drones output Excel spreadsheets, so this is the data format that
 we used as input.
 
-### Website
+## Website
 The website was developed separately. Please see
 https://github.com/JacobPawlak/CS499s18p04Website for progress on that front.
 
-### Other Directories
+## Other Directories
 Many of the other directories in this repository are deprecated.
 These will be deleted/cleaned out as necessary as the project is finalized
 for release.
