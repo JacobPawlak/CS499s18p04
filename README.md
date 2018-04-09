@@ -18,6 +18,10 @@ https://cs.uky.edu/~ammu237/CS499s18p04Website/testing.html
 Within this repository are various project components that will eventually be integrated to create
 the final project. This README will provide a brief introduction to these different parts.
 
+## Requirements
+Use `(sudo) pip install requirements.txt` to obtain the required python libraries to run the
+chat bot. How to run is detailed in the following section.
+
 ### Chat Bot Functionality
 To find the code for the chat bot (i.e., for intent classification and intent handling), see
 `wit/pywit/`. In that folder, you will find the `anyware_wit.py` and `run_anyware.sh` scripts.
