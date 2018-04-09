@@ -12,6 +12,8 @@
 * Test the chatbot systematically according to
 https://cs.uky.edu/~ammu237/CS499s18p04Website/testing.html
 
+**Main site:** http://cs.uky.edu/~jcpa229/CS499s18p04Website/#
+
 ## The AnyWare Chat Bot
 Within this repository are various project components that will eventually be integrated to create
 the final project. This README will provide a brief introduction to these different parts.
